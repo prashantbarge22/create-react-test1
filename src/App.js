@@ -1,9 +1,12 @@
+import React, { Component }  from 'react';
 import { useEffect, useState } from "react";
 import { tokenAddress } from "./config";
 const Web3 = require("web3")
 const TokenABI = require("./abi/Token.json");
 const SwapABI = require("./abi/RenderverseSwap.json");
+
 require('dotenv').config()
+
 
 const config = require("./config");
 
